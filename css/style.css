@@ -82,6 +82,7 @@ li:last-child{
     text-align: center;
     font-size: 50px;
     color: #FFFF00;
+    text-transform: uppercase;
 }
 article.container-3 h2.text-style{
     color: #008000;
