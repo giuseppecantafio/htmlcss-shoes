@@ -78,3 +78,11 @@ li:last-child{
     left: 50%;
     transform: translate(-50%, -100%);
 }
+.text-style{
+    text-align: center;
+    font-size: 50px;
+    color: #FFFF00;
+}
+article.container-3 h2.text-style{
+    color: #008000;
+}
