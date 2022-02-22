@@ -11,7 +11,7 @@ html{
 }
 body{
     font-family: 'Rubik Mono One', sans-serif;
-    background-color: white;
+
 }
 
 /* Nav */
@@ -27,6 +27,8 @@ ul li, a{
     display: inline-block;
     line-height: 100px;
     vertical-align: middle;
+    text-decoration: none;
+    color: black;
 }
 /* Bottoni */
 .buttons{
@@ -46,3 +48,19 @@ li:last-child{
 }
 
 /* Articoli */
+.container-1{
+    height: 100vh;
+    width: 100%;
+    background-color: #FF0000;
+
+}
+.container-2{
+    height: 100vh;
+    width: 100%;
+    background-color: #008000;
+}
+.container-3{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFF00;
+}
