@@ -11,12 +11,11 @@ html{
 }
 body{
     font-family: 'Rubik Mono One', sans-serif;
-
 }
 
 /* Nav */
-nav{
-    width: 20vw;
+nav{ 
+    width: 20%;
     background-color: transparent;
     position: fixed;
     text-align: right;
@@ -25,7 +24,7 @@ nav{
     z-index: 1;
 }
 ul li, a{
-    display: inline-block;
+    display: inline-block; 
     line-height: 100px;
     vertical-align: middle;
     text-decoration: none;
@@ -71,16 +70,18 @@ li:last-child{
 
 /* Box articoli */
 .box{
-    height: 50vh;
     width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -50%);
+}
+.box img{ 
+    width: 100%;
 }
 .text-style{
     text-align: center;
-    font-size: 50px;
+    font-size: 3vw;
     color: #FFFF00;
     text-transform: uppercase;
 }
